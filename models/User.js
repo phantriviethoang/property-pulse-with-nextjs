@@ -1,6 +1,6 @@
 import { Schema, model, models } from "mongoose";
 
-const UserSchema = new Scheme(
+const UserSchema = new Schema(
 	{
 		email: {
 			type: String,
@@ -16,7 +16,7 @@ const UserSchema = new Scheme(
 		},
 		bookmarks: [
 			{
-				tpye: Schema.Types.ObjectId,
+				type: Schema.Types.ObjectId,
 				ref: "Property",
 			},
 		],
