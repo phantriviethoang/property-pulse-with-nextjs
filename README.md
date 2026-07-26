@@ -135,98 +135,100 @@ PropertyCard & Header Images
 5:12:06
 PropertyImages Component
 
-5:20:34
+## Timestamp part 2
+
+00:00
 User Profile Info Display
 
-5:26:09
+05:35
 User Profile Listings
 
-5:35:08
+14:34
 Searialize Lean Documents
 
-5:42:44
+22:10
 Deleting Properties
 
-5:57:03
+36:29
 Toast Notifications
 
-5:59:51
+39:17
 Edit Property Form
 
-6:14:10
+53:36
 Update Property Action
 
-6:23:49
+1:03:15
 Geocode For Latitude & Longitude
 
-6:36:21
+1:15:47
 Mapbox Map Display
 
-6:44:22
+1:23:48
 Property Page Sidebar
 
-6:52:22
+1:31:48
 Bookmark Property Action
 
-6:58:23
+1:37:49
 Bookmark Button Functionality
 
-7:03:40
+1:43:06
 Check Bookmark Status
 
-7:12:13
+1:51:39
 Saved Properties Page
 
-7:18:11
+1:57:37
 Share Buttons
 
-7:28:15
+2:07:41
 Property Search Component
 
-7:35:40
+2:15:06
 Fetch Search Results
 
-7:43:10
+2:22:36
 Display Search Results
 
-7:49:07
+2:28:33
 Message Model & addMessage Action
 
-7:57:25
+2:36:51
 Submit Message & useFormState Hook
 
-8:08:01
+2:47:27
 useFormStatus Hook
 
-8:11:09
+2:50:35
 Fetch Messages
 
-8:20:07
+2:59:33
 Display Messages
 
-8:29:04
+3:08:30
 Mark As Read
 
-8:37:21
+3:16:47
 Delete Messages
 
-8:42:15
+3:21:41
 Global Context For Message Count
 
-8:52:13
+3:31:39
 Get Unread Message Count
 
-9:01:17
+3:40:43
 Pagination Logic
 
-9:06:45
+3:46:11
 Pagination Component
 
-9:16:17
+3:55:43
 Photoswipe Lightbox
 
-9:22:39
+4:02:05
 Featured Properties
 
-9:39:29
+4:18:55
 Deploy To Vercel
