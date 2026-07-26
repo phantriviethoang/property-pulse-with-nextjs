@@ -8,6 +8,7 @@
         "start": "next start"
     },
     "dependencies": {
+        "cloudinary": "^2.10.0",
         "mongodb": "^7.5.0",
         "mongoose": "^9.7.4",
         "next": "14.1.0",
