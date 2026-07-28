@@ -115,7 +115,29 @@ const PropertyEditForm = () => {
         }));
     };
 
-    const handleSubmit = async () => {};
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        try {
+            const formData = new FormData(e.target);
+
+            const res = await fetch(`/api/properties/${id}`, {
+                method: 'PUT',
+                body: formData,
+            });
+
+            if (res.status === 200) {
+                router.push(`/properties/${id}`);
+            } else if (res.status === 401 || res.status === 403) {
+                toast.error('Permission denied');
+            } else {
+                toast.error('Something went wrong');
+            }
+        } catch (error) {
+            console.log(error);
+            toast.error('Something went wrong');
+        }
+    };
 
     return (
         mounted &&
@@ -179,6 +201,7 @@ const PropertyEditForm = () => {
                         className="border rounded w-full py-2 px-3"
                         rows="4"
                         placeholder="Add an optional description of your property"
+                        value={fields.description}
                         onChange={handleChange}
                     ></textarea>
                 </div>
