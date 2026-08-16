@@ -79,6 +79,7 @@ const PropertyMap = ({ property }) => {
         lat !== null &&
         lng !== null && (
             <MapContainer
+                key={`${lat}-${lng}`}
                 center={[lat, lng]}
                 zoom={15}
                 scrollWheelZoom={false}
