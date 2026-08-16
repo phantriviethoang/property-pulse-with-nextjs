@@ -20,7 +20,7 @@ export const GET = async (request) => {
                 { 'location.street': locationPattern },
                 { 'location.city': locationPattern },
                 { 'location.state': locationPattern },
-                { 'location.zip': locationPattern },
+                { 'location.zipcode': locationPattern },
             ],
         };
 
