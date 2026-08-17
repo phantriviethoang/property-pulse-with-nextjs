@@ -62,13 +62,14 @@ const Message = ({ message }) => {
             )}
             <h2 className="text-xl mb-4">
                 <span className="font-bold">Property Inquiry:</span> {''}
-                {message.property.name}
+                {message.property?.name || 'Deleted Property'}
             </h2>
             <p className="text-gray-700">{message.body}</p>
 
             <ul className="mt-4">
                 <li>
-                    <strong>Name:</strong> {message.sender.username}
+                    <strong>Name:</strong>{' '}
+                    {message.sender?.username || message.name}
                 </li>
 
                 <li>
